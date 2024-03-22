@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
   ],
   // 可參考：https://israynotarray.com/nodejs/20230214/796256725/
-  base: process.env.NODE_ENV === 'production' ? '/live-vue3-dashboard-2023/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/Vue-week8/' : '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
