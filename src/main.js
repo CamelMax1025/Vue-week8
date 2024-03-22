@@ -5,6 +5,8 @@ import { createPinia } from 'pinia';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 
+import './assets/scss/all.scss'
+
 import Loading from 'vue-loading-overlay';
 
 import CKEditor from '@ckeditor/ckeditor5-vue';

@@ -363,8 +363,8 @@
 </template>
 
 <script>
-import "vue-loading-overlay/dist/css/index.css";
-import Loading from "vue-loading-overlay";
+import 'vue-loading-overlay/dist/css/index.css';
+import Loading from 'vue-loading-overlay';
 
 export default {
   data() {
@@ -374,12 +374,12 @@ export default {
       lock: false,
       form: {
         user: {
-          name: "",
-          email: "",
-          tel: "",
-          address: "",
+          name: '',
+          email: '',
+          tel: '',
+          address: '',
         },
-        message: "",
+        message: '',
       },
     };
   },
@@ -390,7 +390,7 @@ export default {
       this.lock = true;
       setTimeout(() => {
         this.isLoading = false;
-        this.lock = "";
+        this.lock = '';
       }, 3000);
     },
   },
@@ -402,5 +402,3 @@ export default {
   },
 };
 </script>
-
-<style></style>
