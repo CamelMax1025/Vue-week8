@@ -5,11 +5,11 @@
 <script>
 export default {
   data() {
-    return {}
+    return {};
   },
 };
 </script>
 
 <style lang="scss">
-@import "./assets/scss/all";
+@import '../src/assets/scss/all.scss';
 </style>
