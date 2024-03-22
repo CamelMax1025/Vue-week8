@@ -60,5 +60,4 @@ app.component('VField', Field);
 app.component('VForm', Form);
 app.component('ErrorMessage', ErrorMessage);
 
-
 app.mount('#app');
