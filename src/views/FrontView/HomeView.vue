@@ -43,10 +43,10 @@
           style="width: 100%; object-fit: cover; opacity: 1; height: 100vh"
         />
       </div>
-      <div class="container d-flex flex-column p-0" style="min-height: 100vh">
+      <div class="container d-flex flex-column p-0" style="">
         <div
-          class="row justify-content-center z-1 my-auto"
-          style="display: inline-block; padding-left: 0; padding-right: 10px"
+          class="container row justify-content-start z-1 p-0"
+          style="align-items: center; height: 100vh"
         >
           <div class="col-md-4 d-flex flex-column p-0">
             <h2 style="font-weight: bold; font-size: 56px; color: white">
@@ -305,7 +305,7 @@
     </div>
   </div>
 
-  <div class="container p-0 mb-0">
+  <div class="container mb-0">
     <div class="row">
       <div class="col">
         <h2 style="color: #0d274a; font-weight: bold; font-size: 48px">

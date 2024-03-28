@@ -23,7 +23,6 @@ import { date, currency } from './methods/filters';
 import App from './App.vue';
 import router from './router';
 
-
 /**
  * 這裡是將所有 vee-validate 的規則載入
  */
@@ -54,6 +53,7 @@ app.use(pinia);
 app.use(router);
 app.use(VueAxios, axios);
 app.use(CKEditor);
+
 
 app.component('VueLoading', Loading);
 app.component('VField', Field);
